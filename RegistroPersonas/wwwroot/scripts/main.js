@@ -1,4 +1,4 @@
-﻿var url = "https://localhost:7283/api/persona";
+﻿var url = "https://formulariopersonas.herokuapp.com/api/Persona";
 
 Get();
 
