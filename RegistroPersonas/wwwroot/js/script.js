@@ -44,10 +44,14 @@ function Delete(id) {
     fetch(url, {
         method: "DELETE",
         body: JSON.stringify({
-            Id: id
+            Id: id,
+            Nombre: "",
+            Direccion: "",
+            Correo: "",
+            Edad: 0
         }),
         headers: {
-            'Accept': "application/json",
+            "Accept": "application/json",
             "Content-Type": "application/json"
         }
     }).then(function (response) {
