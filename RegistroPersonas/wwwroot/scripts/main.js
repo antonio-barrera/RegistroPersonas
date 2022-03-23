@@ -112,11 +112,11 @@ function Get() {
     }).then(function (Data) {
         document.getElementById("divLista").innerHTML = "";
         for (i = 0; i < Data.length; i++) {
-            let divElement = document.createElement("div");
+            let divElement = document.createElement("li");
             let divSpan = document.createElement("span");
             let divButtonDelete = document.createElement("button");
             let divButtonEdit = document.createElement("button");
-            divSpan.innerHTML = Data[i].nombre + " " + Data[i].edad;
+            divSpan.innerHTML = Data[i].nombre;
             divButtonDelete.innerHTML = "Eliminar";
             divButtonDelete.MiId = Data[i].id;
             divButtonDelete.addEventListener("click", function (mibutton) {
@@ -141,7 +141,10 @@ function Get() {
             divElement.appendChild(divButtonDelete);
             divElement.appendChild(divButtonEdit);
             document.getElementById("divLista").appendChild(divElement);
-
+            divElement.classList.add("list-group-item", "row", "px-5");
+            divSpan.classList.add("fs-5", "col-md-6", "mb-2");
+            divButtonDelete.classList.add("btn", "btn-danger", "col-md-3");
+            divButtonEdit.classList.add("btn", "btn-warning", "col-md-3");
         }
 
     })
