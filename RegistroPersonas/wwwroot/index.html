@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Registro Personas</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <h1>Personas .....</h1>
+    <hr>
+    <form id="frm">
+        <input type="hidden" value="" name="Id" Id="Id">
+        <label>Nombre: </label>
+        <input type="text" name="Nombre" id="Nombre">
+        <br>
+        <label>Direccion: </label>
+        <input type="text" name="Direccion" id="Direccion">
+        <br>
+        <label>Correo: </label>
+        <input type="text" name="Correo" id="Correo">
+        <br>
+        <label>Edad: </label>
+        <input type="number" name="Edad" id="Edad">
+        <br>
+        <input type="button" value="Guardar" onclick="Guardar();">
+    </form>
+    <hr>
+    <div id="divLista"></div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

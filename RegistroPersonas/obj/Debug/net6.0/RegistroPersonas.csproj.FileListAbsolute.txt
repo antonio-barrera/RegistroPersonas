@@ -59,3 +59,4 @@ C:\Users\jeant\source\repos\RegistroPersonas\RegistroPersonas\obj\Debug\net6.0\r
 C:\Users\jeant\source\repos\RegistroPersonas\RegistroPersonas\obj\Debug\net6.0\RegistroPersonas.pdb
 C:\Users\jeant\source\repos\RegistroPersonas\RegistroPersonas\obj\Debug\net6.0\RegistroPersonas.genruntimeconfig.cache
 C:\Users\jeant\source\repos\RegistroPersonas\RegistroPersonas\obj\Debug\net6.0\ref\RegistroPersonas.dll
+C:\Users\jeant\source\repos\RegistroPersonas\RegistroPersonas\bin\Debug\net6.0\RegistroPersonas.staticwebassets.runtime.json

@@ -1,11 +1,71 @@
 {
   "Version": 1,
-  "Hash": "lcR6JHydUDN7N1mKD7DvK5inK2l1UyZuI4PsmsPlVFo=",
+  "Hash": "2xdMGGrqZqHBzQCqKB9FcfdnvfeB+u6W45TP7uYEU8k=",
   "Source": "RegistroPersonas",
   "BasePath": "_content/RegistroPersonas",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "RegistroPersonas\\wwwroot",
+      "Source": "RegistroPersonas",
+      "ContentRoot": "C:\\Users\\jeant\\source\\repos\\RegistroPersonas\\RegistroPersonas\\wwwroot\\",
+      "BasePath": "_content/RegistroPersonas",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\jeant\\source\\repos\\RegistroPersonas\\RegistroPersonas\\wwwroot\\css\\style.css",
+      "SourceId": "RegistroPersonas",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jeant\\source\\repos\\RegistroPersonas\\RegistroPersonas\\wwwroot\\",
+      "BasePath": "_content/RegistroPersonas",
+      "RelativePath": "css/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
+    },
+    {
+      "Identity": "C:\\Users\\jeant\\source\\repos\\RegistroPersonas\\RegistroPersonas\\wwwroot\\index.html",
+      "SourceId": "RegistroPersonas",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jeant\\source\\repos\\RegistroPersonas\\RegistroPersonas\\wwwroot\\",
+      "BasePath": "_content/RegistroPersonas",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\jeant\\source\\repos\\RegistroPersonas\\RegistroPersonas\\wwwroot\\js\\script.js",
+      "SourceId": "RegistroPersonas",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jeant\\source\\repos\\RegistroPersonas\\RegistroPersonas\\wwwroot\\",
+      "BasePath": "_content/RegistroPersonas",
+      "RelativePath": "js/script.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\script.js"
+    }
+  ]
 }
